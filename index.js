@@ -1,6 +1,10 @@
-try {
-  const a = 1 * '2';
-  console.log(a);
-} catch (e) {
-  console.log(e);
+function main() {
+  try {
+    const a = 1 * '2';
+    console.log(a);
+  } catch (e) {
+    console.log(e);
+  }
 }
+
+main();

@@ -1,10 +1,10 @@
-function main() {
+function main(a = 1, b = 1) {
   try {
-    const a = 1 * '2';
-    console.log(a);
+    return a * b;
   } catch (e) {
     console.log(e);
+    return 0;
   }
 }
 
-main();
+main(2, 3);
